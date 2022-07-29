@@ -1,0 +1,69 @@
+/**/
+/*modifica el fondo de  donde aparece  la tabla*/
+body{
+  height: 665PX;
+  background-image: url('../imagenes/cuadro_de_informacion_fondo_mundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+
+
+/*primera tabla */
+table {
+    border-collapse: collapse;
+    border: 2px solid #17202A;
+    
+  }
+  td,
+  th {
+    padding: 10px;
+  }
+/*titulo de la tabla*/
+  th {
+    
+    border: 2px solid black;
+    color: #c4ccd6;
+    text-transform: uppercase;
+  }
+  
+  td {
+    text-align: center;
+    border-bottom: 2px solid #111;
+    color: rgb(240, 234, 234);
+    font-size: 18px;
+  }
+  
+  td {
+    border: 2px solid black;
+  }
+/* diagrama que esta en ela tabla */
+  .diagrama{
+    background-color:#b38cf2;
+  }
+/* color del cuadro de horas */
+  .analisis{
+    background-color:green;
+  }
+
+  .desarrollo{
+    background-color:rgb(185, 185, 52)
+  }
+
+  .codificacion{
+    background-color:rgb(255, 0, 170)
+  }
+  .implementacion{
+    background-color:gray
+  }
+
+  .prueba{
+    background-color:brown
+  }
+/*segunda tabla */
+  .segunda_tabla{
+    background-color:rgb(42, 85, 165)
+  }

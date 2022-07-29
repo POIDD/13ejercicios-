@@ -1,0 +1,35 @@
+
+/*para que no tome las margenes que da por defecto el navegador */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fondo de la calculadora */
+body{
+    height: 665PX;
+    background-image: url('../imagenes/calculadora_fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+/*colores y tipo de letra de la calculadora */
+body{
+    font-family: 'Courier New', Courier;
+}
+input[type=text]{
+    background-color: rgb(255, 182, 193);
+}
+/*centra la calculadora */
+.calculadora{
+    margin: 0 auto;
+    text-align: center;
+
+}
+/*el tamaño de la imagen que esta encima de la calculadotra */
+.imagen{
+    height: 300px;
+
+}

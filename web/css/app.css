@@ -1,0 +1,106 @@
+/**/
+/* coloca la imagen de fondo */
+body{
+    height: 665PX;
+    background-image: url('../imagenes/fonde_web_principal.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+/*primer titulo */
+.titulo{
+    width: 1000px;
+    margin:30px auto;
+    background-color: aliceblue;
+    border-radius: 1em;
+
+    
+}
+/* logo de la izquierda */
+.logo{
+    height: 85PX;
+    float: left;
+    border-radius: 150px;
+    border: 5px solid #99c6f0;
+
+}
+/*barra del  menu  */
+.navegacion{
+
+    width: 1000px;
+    margin:30px auto;
+    background-color: rgb(234, 237, 240);
+
+}
+/*lista */
+.navegacion ul{
+    list-style: none;
+
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+
+ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(21, 11, 109);
+    font-family: 'Open Sans';
+    text-decoration: none;
+
+}
+/*hace  que la lista brille  */
+.menu > li > a:hover{
+    color: rgb(100, 237, 107);
+    transition: all.3s;
+
+}
+/*contenedor de las fotos */
+.fotos{
+    height: 100%;
+    width: 50%;
+    background: #99c6f0;
+    border-radius: 1em;
+    float: right;
+}
+/* caja de el menu general*/
+.contenido{
+    height: 100%;
+    width: 50%;
+    background:#f7bcc8 ;
+    border-radius: 1em; 
+    float: left;
+    
+    
+
+}
+
+
+
+
+.contenido ol:hover{
+    color: rgb(100, 237, 107);
+    transition: all.3s;
+     
+
+}
+
+.fotoGrupal{
+    height: 250PX;
+    float: right;
+   
+
+
+}
+.fotoUniforme{
+    height: 250PX;
+    float: left;
+    
+
+
+
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--enlacesa con el js y el css -->
+    <link rel="stylesheet" href="css/calculadora.css">
+    <script type="text/JavaScript" src="js/calculadora_sumar.js"></script>
+    <script type="text/JavaScript" src="js/calculadora_restar.js"></script>
+    <script type="text/JavaScript" src="js/calculadora_multiplicar.js"></script>
+    <script type="text/JavaScript" src="js/calculadora_dividir.js"></script>
+    <script type="text/JavaScript" src="js/calculadora_modulo.js"></script>
+    <title>calculadora</title>
+</head>
+<body>
+   <!--contenedor de la calculadora -->
+        <div class="calculadora">
+            <br>
+            <!--contenedor de la imagen -->
+        <img class="imagen" src="imagenes/calculadora_foto.jpg" >
+        <!--codigo de la calculadora-->
+        <h1 >calculadora</h1>
+        <form class="box" name="form1">
+        <input type="text"name="numero1"size="15">
+        <input type="text"name="numero2"size="15">
+        <input type="text"name="resultado"size="15">
+        <input type="button" value="    sumar     " onclick="sumar()">
+        </form> 
+    
+        <form name="form2">
+        <input type="text"name="numero1"size="15">
+        <input type="text"name="numero2"size="15">
+        <input type="text"name="resultado"size="15">
+        <input type="button" value="     restar     " onclick="restar()">
+        </form> 
+    
+        <form name="form3">
+        <input type="text"name="numero1"size="15">
+        <input type="text"name="numero2"size="15">
+        <input type="text"name="resultado"size="15">
+        <input type="button" value=" multiplicar " onclick="multiplicar()">
+        </form> 
+    
+        <form name="form4">
+        <input type="text"name="numero1"size="15">
+        <input type="text"name="numero2"size="15">
+        <input type="text"name="resultado"size="15">
+        <input type="button" value="    dividir     " onclick="dividir()">
+        </form> 
+
+        <form name="form5">
+            <input type="text"name="numero1"size="15">
+            <input type="text"name="numero2"size="15">
+            <input type="text"name="resultado"size="15">
+            <input type="button" value="   modulo   " onclick="modulo()">
+            </form> 
+    
+
+        
+    
+    
+        </div>
+
+   
+</body>
+</html>
